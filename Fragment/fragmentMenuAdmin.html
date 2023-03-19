@@ -1,0 +1,90 @@
+<header class="fixed-top">	   	            
+    <div class="app-header-inner">  
+        <div class="container-fluid py-2">
+            <div class="app-header-content"> 
+                <div class="row justify-content-between align-items-center">
+                
+                <div class="col-auto">
+                    <a id="sidepanel-toggler" class="sidepanel-toggler d-inline-block d-xl-none" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img"><title>Menu</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg>
+                    </a>
+                </div><!--//col-->
+
+            </div><!--//app-header-content-->
+        </div><!--//container-fluid-->
+    </div><!--//app-header-inner-->
+    <div id="app-sidepanel" class="app-sidepanel"> 
+        <div id="sidepanel-drop" class="sidepanel-drop"></div>
+        <div class="sidepanel-inner d-flex flex-column">
+            <a href="#" id="sidepanel-close" class="sidepanel-close d-xl-none">&times;</a>
+            <div class="app-branding">
+                <a class="" href="index.php"><span class=".titre_admin">CMFI REPLAY</span></a>
+
+            </div><!--//app-branding-->  
+            
+            <nav id="app-nav-main" class="app-nav app-nav-main flex-grow-1">
+                <ul class="app-menu list-unstyled accordion" id="menu-accordion">
+                    <li class="nav-item">
+                        <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
+                        <a class="nav-link active" href="admin.php">
+                            <span class="nav-icon">
+                            </span>
+                             <span class="nav-link-text">Overview</span>
+                        </a><!--//nav-link-->
+                    </li><!--//nav-item-->
+
+
+                    <li class="nav-item has-submenu">
+                        <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
+                        <a class="nav-link submenu-toggle" href="#" data-bs-toggle="collapse" data-bs-target="#submenu-1" aria-expanded="false" aria-controls="submenu-1">
+                            <span class="nav-icon">
+                            <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
+                            </span>
+                             <span class="nav-link-text">Création</span>
+                             <span class="submenu-arrow">
+                                 <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                </svg>
+                             </span><!--//submenu-arrow-->
+                        </a><!--//nav-link-->
+                        <div id="submenu-1" class="collapse submenu submenu-1" data-bs-parent="#menu-accordion">
+                            <ul class="submenu-list list-unstyled">
+                                <li class="submenu-item"><a class="submenu-link" href="?creer_serie">Créer une Série</a></li>
+                                <li class="submenu-item"><a class="submenu-link" href="?creer_saison">Créer une Saison</a></li>
+                                <li class="submenu-item"><a class="submenu-link" href="?creer_episode">Créer un Episode</a></li>
+                                <li class="submenu-item"><a class="submenu-link" href="?creer_film">Créer un film</a></li>
+                            </ul>
+                        </div>
+                    </li><!--//nav-item-->
+
+                    <li class="nav-item has-submenu">
+                        <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
+                        <a class="nav-link submenu-toggle" href="#" data-bs-toggle="collapse" data-bs-target="#submenu-2" aria-expanded="false" aria-controls="submenu-2">
+                            <span class="nav-icon">
+                            <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
+                            </span>
+                             <span class="nav-link-text">Consultation</span>
+                             <span class="submenu-arrow">
+                                 <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                </svg>
+                             </span><!--//submenu-arrow-->
+                        </a><!--//nav-link-->
+                        <div id="submenu-2" class="collapse submenu submenu-2" data-bs-parent="#menu-accordion">
+                            <ul class="submenu-list list-unstyled">
+                                <li class="submenu-item"><a class="submenu-link" href="?creer_serie">Voir les Séries</a></li>
+                                <li class="submenu-item"><a class="submenu-link" href="?creer_saison">Voir les saisons</a></li>
+                                <li class="submenu-item"><a class="submenu-link" href="?creer_episode">Voir les épisodes</a></li>
+                                <li class="submenu-item"><a class="submenu-link" href="?creer_film">Voir les films</a></li>
+                            </ul>
+                        </div>
+                    </li><!--//nav-item-->
+                    
+                </ul><!--//app-menu-->
+            </nav><!--//app-nav-->
+
+           
+        </div>
+    </div>
+    
+</header>
